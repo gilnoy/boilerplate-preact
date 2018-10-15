@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gil  Noy",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
