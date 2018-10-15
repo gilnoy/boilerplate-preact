@@ -6,14 +6,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const dirNode = 'node_modules';
 const dirApp = path.join (__dirname);
 
-
 // if (module.hot) {
 //   require ('preact/debug');
 // }
 
 module.exports = {
     mode: 'development',
-    entry: path.join (dirApp, 'index.ts'),
+    entry: path.join (dirApp, '/index.ts'),
     output: {
         path: path.resolve (__dirname, 'dist'),
         filename: 'dist.js',

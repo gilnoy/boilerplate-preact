@@ -1,10 +1,11 @@
 const path = require('path');
+const { resolve } = require('path');
 const webpack =  require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 const dirNode = 'node_modules';
-const dirApp = path.join (__dirname);
+const dirApp = resolve(path.join (__dirname));
 
 
 // if (module.hot) {

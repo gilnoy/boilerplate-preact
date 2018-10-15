@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const dirNode = 'node_modules';
 const dirApp = path.join (__dirname);
 
+console.log(dirApp);
 
 // if (module.hot) {
 //   require ('preact/debug');
