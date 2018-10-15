@@ -1,0 +1,4 @@
+node_modules/*
+.hostory/*
+yarn.lock
+yarn-error.log
